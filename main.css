@@ -74,6 +74,8 @@ html {
 }
 
 .myself {
-    border: 2px black solid;
-    height: 200px;
+    /* border-top: 2px black solid; */
+    /* border-bottom: 2px black solid; */
+    /* height: 200px; */
+    overflow: auto;
 }
