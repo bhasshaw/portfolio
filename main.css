@@ -1,6 +1,6 @@
 header.masthead {
     text-align: center;
-    color: white;
+    /* color: rgb(112, 198, 255); */
     background-image: url("./views/header.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
