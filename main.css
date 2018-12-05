@@ -35,10 +35,6 @@ header.masthead .intro-text .heading {
     }
 } 
 
-nav {
-    background-color: white;
-}
-
 .menu {
     font-size: 28px;
 }
@@ -75,4 +71,12 @@ html {
 
 .myself {
     overflow: auto;
+}
+
+.nav-link, .heading, .title {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
 }
