@@ -46,6 +46,19 @@ a:link, a:visited, a:hover, a:active {
     font-size: 40px;
 }
 
+.tech li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 5px;
+    font-size: 2.2em;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
 html {
     scroll-behavior: smooth;
 }
