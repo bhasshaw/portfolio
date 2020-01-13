@@ -19,7 +19,7 @@
 
     <!-- NAVIGATION -->
 
-    <nav role="navigation" class="navbar navbar-expand-lg fixed-top bg-white">
+    <!-- <nav role="navigation" class="navbar navbar-expand-lg fixed-top bg-white">
         <div class="container">
             <a class="navbar-brand" href="#top">Bryce Hasshaw</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
@@ -32,15 +32,23 @@
                         <a class="nav-link" href="#about">About</a>
                     </li>
                     <li data-toggle="collapse" data-target=".navbar-collapse">
-                        <a class="nav-link" href="#projects">Projects</a>
+                        <a class="nav-link" href="#professional">Professional</a>
                     </li>
                     <li data-toggle="collapse" data-target=".navbar-collapse">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" href="#projects">Personal</a>
                     </li>
                 </ul>
             </div>
         </div>
-    </nav>
+    </nav> -->
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 bg-white border-bottom shadow-sm sticky-top">
+        <h5 class="my-0 mr-md-auto font-weight-normal">Bryce Hasshaw</h5>
+        <nav class="my-2 my-md-0 mr-md-3">
+            <a class="p-2 text-dark" href="#about">About</a>
+            <a class="p-2 text-dark" href="#professional">Professional</a>
+            <a class="p-2 text-dark" href="#projects">Personal</a>
+        </nav>
+    </div>
     <div class="scrolling-box">
 
         <!-- HEADER -->
@@ -63,14 +71,13 @@
                 <div class="myself row">
                     <div class="d-inline-block col-lg-6 my-auto">
                         <div class="mb-4">
-                            <img class="rounded-circle" width="250" height="250" src="./views/me.jpg" alt="picture of two dogs">
+                            <img class="rounded-circle" src="./views/me.jpg">
                         </div>
                     </div>
                     <div class="d-inline-block col-lg-6 px-5 my-auto">
                         <p>
                             Hello, my name is Bryce Hasshaw. I am a
-                            <span class="text-info">Full Stack Web Developer</span> in Portland, Oregon. I am a graduate of Thinkful's full stack
-                            development program. My focus has been on the
+                            <span class="text-info">Front End Developer</span> in Portland, Oregon. My focus has been on the
                             <span class="text-info">"MERN" stack (MongoDB, Express, React, Node.js)</span>
                             but other languages and frameworks are always on the horizon. I am always excited to learn new things and develop simple
                             solutions to complex problems. Web development is ever changing and that is what excites me the
@@ -78,6 +85,80 @@
                             <span class="text-info">I have a true passion for writing clean, simple, and useful code.</span> When I am not coding
                             I enjoy cooking, spending time with friends and family, tiring out my puppy, and enjoying the outdoors.
                         </p>
+                        <div class="text-center pt-3">
+                            <a href="https://github.com/bhasshaw" target="_blank">
+                                <i class="icon mx-4 fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/brycehasshaw/" target="_blank">
+                                <i class="icon mx-4 fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="mailto:bhasshaw@gmail.com">
+                                <i class="icon mx-4 far fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROFESSIONAL -->
+
+        <section role="region" id="professional">
+            <div class="container" style="max-width: 800px;">
+                <div class="row">
+                    <div class="col-lg-12 my-5 text-center">
+                        <h2 class="title text-uppercase">Professional Experience</h2>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="card col-lg-5 pt-4 mb-3 bg-dark text-white">
+                        <img src="./views/pogo.png" class="pogo">
+                        <h3 class="title mt-3">POGO TurfPro</h3>
+                        <div class="card-body">
+                            <p class="card-text font-italic">POGO TurfPro is an Angular 2+ application built to store and analyze data from a portable soil sensor.</p>
+                        </div>
+                        <div class="tech text-center">
+                            <ul>
+                                <li>
+                                    <i class="fab fa-angular"></i>
+                                </li>
+                                <li>
+                                    <i class="fab fa-js"></i>
+                                </li>
+                                <li>
+                                    <i class="fab fa-html5"></i>
+                                </li>
+                                <li>
+                                    <i class="fab fa-css3-alt"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="https://pogoturfpro.com/cloud/" target="_blank" class="btn mx-5 mb-4 btn-light">Learn More</a>
+                    </div>
+                    <div class="card col-lg-5 offset-lg-2 pt-4 mb-3 bg-light">
+                        <img class="" src="./views/sc-logo.png">
+                        <h3 class="title mt-3">Stevens Connect</h3>
+                        <div class="card-body">
+                            <p class="card-text font-italic">Stevens Connect is an Angular 2+ application built to store and analyze data from data loggers all of over the world.</p>
+                        </div>
+                        <div class="tech text-center">
+                            <ul>
+                                <li>
+                                    <i class="fab fa-angular"></i>
+                                </li>
+                                <li>
+                                    <i class="fab fa-js"></i>
+                                </li>
+                                <li>
+                                    <i class="fab fa-html5"></i>
+                                </li>
+                                <li>
+                                    <i class="fab fa-css3-alt"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="https://stevens-connect.com/public/project/1/dashboard" target="_blank" class="btn mx-5 mb-3 btn-dark text-white">Live Demo</a>
+                        <a href="https://www.stevenswater.com/products/stevens-connect" target="_blank" class="btn mx-5 mb-4 btn-dark text-white">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -85,16 +166,15 @@
 
         <!-- PROJECTS -->
 
-        <section role="region" class="mb-3" id="projects">
+        <section role="region" id="projects">
             <div class="container" style="max-width: 800px;">
                 <div class="row">
                     <div class="col-lg-12 my-5 text-center">
-                        <h2 class="title text-uppercase">Projects</h2>
+                        <h2 class="title text-uppercase">Personal Projects</h2>
                     </div>
                 </div>
                 <div class="row text-center">
-                    <div class="card col-lg-6 col-sm-6 pt-3 bg-dark text-white">
-
+                    <div class="card col-lg-5 pt-3 mb-3 bg-light">
                         <img src="./views/dogs.jpeg" alt="picture of two dogs">
                         <h3 class="title mt-3">DogDates</h3>
                         <div class="card-body">
@@ -119,10 +199,10 @@
                                 </li>
                             </ul>
                         </div>
-                        <a href="https://thawing-reef-84959.herokuapp.com/" target="_blank" class="btn mx-5 mb-3 btn-light">Live Link</a>
-                        <a href="https://github.com/bhasshaw/react-capstone-client" target="_blank" class="btn mx-5 mb-4 btn-light">GitHub</a>
+                        <a href="https://thawing-reef-84959.herokuapp.com/" target="_blank" class="btn mx-5 mb-3 btn-dark text-white">Live Link</a>
+                        <a href="https://github.com/bhasshaw/react-capstone-client" target="_blank" class="btn mx-5 mb-4 btn-dark text-white">GitHub</a>
                     </div>
-                    <div class="card col-lg-6 col-sm-6 pt-3 bg-light">
+                    <div class="card col-lg-5 offset-lg-2 pt-3 mb-3 bg-dark text-white">
                         <img class="" src="./views/car.jpeg" alt="picture of an interior of a car">
                         <h3 class="title mt-3">CarLog</h3>
                         <div class="card-body">
@@ -144,10 +224,12 @@
                                 </li>
                             </ul>
                         </div>
-                        <a href="https://hidden-hamlet-51955.herokuapp.com/" target="_blank" class="btn mx-5 mb-3 btn-dark text-white">Live Link</a>
-                        <a href="https://github.com/bhasshaw/carlog" target="_blank" class="btn mx-5 mb-4 btn-dark text-white">GitHub</a>
+                        <a href="https://hidden-hamlet-51955.herokuapp.com/" target="_blank" class="btn mx-5 mb-3 btn-light">Live Link</a>
+                        <a href="https://github.com/bhasshaw/carlog" target="_blank" class="btn mx-5 mb-4 btn-light">GitHub</a>
                     </div>
-                    <div class="card col-lg-6 col-sm-6 pt-3 bg-dark text-white">
+                </div>
+                <div class="row text-center">
+                    <div class="card col-lg-5 pt-3 mb-3 bg-dark text-white">
                         <img class="" src="./views/rocket.jpeg" alt="picture of a rocket in the sky">
                         <h3 class="title mt-3">SpaceX Search</h3>
                         <div class="card-body">
@@ -172,7 +254,7 @@
                         <a href="https://bhasshaw.github.io/spacex-api/" target="_blank" class="btn mx-5 mb-3 btn-light">Live Link</a>
                         <a href="https://github.com/bhasshaw/spacex-api" target="_blank" class="btn mx-5 mb-4 btn-light">GitHub</a>
                     </div>
-                    <div class="card col-lg-6 col-sm-6 pt-3 bg-light">
+                    <div class="card col-lg-5 offset-lg-2 pt-3 mb-3 bg-light">
                         <img class="" src="./views/medical.jpeg" alt="medical picture">
                         <h3 class="title mt-3">Medical Quiz</h3>
                         <div class="card-body">
@@ -197,53 +279,6 @@
                 </div>
             </div>
         </section>
-
-        <!-- CONTACT -->
-
-        <section role="region" class="mb-3" id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 my-5 text-center">
-                        <h2 class="title text-uppercase">Contact</h2>
-                    </div>
-                </div>
-                <div class="text-center mb-5">
-                    <a href="https://github.com/bhasshaw" target="_blank">
-                        <i class="icon mx-4 fab fa-github"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/brycehasshaw/" target="_blank">
-                        <i class="icon mx-4 fab fa-linkedin-in"></i>
-                    </a>
-                    <a href="mailto:bhasshaw@gmail.com">
-                        <i class="icon mx-4 far fa-envelope"></i>
-                    </a>
-                </div>
-            </div>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-        </section>
-
-        <!-- FOOTER -->
-
-        <footer role="contentinfo">
-            <div class="text-center my-4">
-                <p>Created by Bryce Hasshaw</p>
-            </div>
-        </footer>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
